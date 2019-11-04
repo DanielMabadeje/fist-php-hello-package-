@@ -1,0 +1,17 @@
+{
+    "name": "daniel/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Mabadeje",
+            "email": "mabadejedaniel1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Daniel\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
